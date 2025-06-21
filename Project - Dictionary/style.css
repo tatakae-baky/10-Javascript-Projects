@@ -28,13 +28,14 @@ body{
 
 .search-box input{
     width: 70%;
-    padding: 5px;
+    padding: 5px 20px;
     border: none;
     outline: none;
     background-color: #901E3E;
     border-bottom: 3px solid white;
     font-size: 18px;
     color: white;
+    border-radius: 5px;
 }
 
 .search-box button{
