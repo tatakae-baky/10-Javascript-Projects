@@ -11,26 +11,13 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <audio id="sound"></audio>
     <div class="container">
       <div class="search-box">
-        <input type="text" placeholder="Type the word here" />
-        <button>Search</button>
+        <input id="input-word" type="text" placeholder="Type the word here" />
+        <button id="search-btn">Search</button>
       </div>
-      <div class="result">
-        <div class="word">
-          <h3>Fuck You</h3>
-          <button><i class="fa-solid fa-volume-high"></i></button>
-        </div>
-        <div class="details">
-            <p>pos</p>
-            <p>/sample/</p>
-        </div>
-        <div class="word-meaning">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolore eaque exercitationem adipisci labore enim rerum, ex officia vel voluptatibus doloremque voluptates eos incidunt neque assumenda explicabo sed? Adipisci, minima.
-        </div>
-        <div class="word-example">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate doloribus rerum corporis tenetur veniam quia. Nihil eveniet sint iste aut quasi! Labore, similique. Facere corporis dolores placeat quae. Quo, itaque!
-        </div>
+      <div class="result" id="result">
       </div>
     </div>
     <!-- script -->
